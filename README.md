@@ -1,8 +1,8 @@
 ## 👋🏻 TEAM MEMBER
  |이름|역할|이메일|기술
  |----|---|---|---|
- |[곽민우](https://github.com/kmwdevelop)|Mobile(Android/iOS)|rlrlfhtm5@gmail.com|Flutter|
- |[임명우](https://github.com/Dansot4891)|Mobile(Android/iOS)|rlrlfhtm5@gmail.com|Flutter|
+ |[곽민우](https://github.com/kmwdevelop)|Mobile(Android/iOS)|g.kmwdev@gmail.com|Flutter|
+ |[임명우](https://github.com/Dansot4891)|Mobile(Android/iOS)|example5@gmail.com|Flutter|
 
 ## Github Branch
 
