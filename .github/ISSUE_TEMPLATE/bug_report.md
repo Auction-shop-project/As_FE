@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: "❗️Bug: 제목을 입력해주세요"
 labels: bug
-assignees: kmwdevelop, Dansot4891
+assignees: Dansot4891, kmwdevelop
 
 ---
 
