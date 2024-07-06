@@ -12,7 +12,7 @@
 
 ![스크린샷 2024-07-07 오전 2 59 39](https://github.com/Auction-shop-project/As_FE/assets/137240956/2cd78f3a-ec5d-47f4-95c6-b97fcf59f46c)
 
-### 2. 작업할 Branch 생성
+### 2. Branch & Commit
 - `develop Branch` 에서 `새로운 Branch`를 생성합니다.
 - `해당 Branch`에서 작업을 합니다.
 - 커밋 규칙은 다음을 따릅니다
