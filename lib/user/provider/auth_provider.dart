@@ -395,7 +395,7 @@ class AuthNotifier extends ChangeNotifier {
         ref.read(mainProductProvider.notifier).recommendProducts();
 
         // 로그인시 SSE 연결
-        ref.read(SSEProvider.notifier).connect(memberId);
+        // ref.read(SSEProvider.notifier).connect(memberId);
         return '/';
       }
       return null;

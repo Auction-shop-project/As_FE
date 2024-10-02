@@ -41,36 +41,49 @@ class _ChatListScreenState extends ConsumerState<ChatListScreen> {
         title: "채팅 모음",
       ),
       child: Padding(
-        padding: const EdgeInsets.only(left: 16, right: 34),
+        padding: const EdgeInsets.only(left: 0, right: 0),
+        //padding: const EdgeInsets.only(left: 16, right: 34),
         child: CustomScrollView(
           slivers: [
+            SliverToBoxAdapter(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(height: 50),
+                  Text(
+                  "추후 업데이트될 예정입니다.\n감사합니다.",
+                  textAlign: TextAlign.center,
+                ),
+                ],
+              )
+            ),
             //topBar(),
-            if (state.length == 0)
-              SliverToBoxAdapter(child: SizedBox())
-            else if (state.length != 0)
-              SliverList.builder(
-                itemCount: state.length,
-                itemBuilder: (context, index) {
-                  print( state[index].toJson());
-                  final memberId = ref.read(userProvider.notifier).getMemberId();
-                  print("mymemberId : ${memberId}");
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 25),
-                    child: ChatListBox(
-                      func: () async {
-                        final extra = state[index];
-                        final enterData = MakeRoom(userId: extra.userId, postId: extra.postId, yourId: extra.yourId);
-                        ref.read(chatProvider.notifier).enterChat(enterData);
-                        
-                        context.pushNamed(ChatInfoScreen.routeName, extra: extra);
-                      },
-                      username: 'userId : ${state[index].userId}',
-                      date: "postId : ${state[index].postId}",
-                      content: "yourId : ${state[index].yourId}",
-                    ),
-                  );
-                },
-              ),
+            // if (state.length == 0)
+            //   SliverToBoxAdapter(child: SizedBox())
+            // else if (state.length != 0)
+            //   SliverList.builder(
+            //     itemCount: state.length,
+            //     itemBuilder: (context, index) {
+            //       print( state[index].toJson());
+            //       final memberId = ref.read(userProvider.notifier).getMemberId();
+            //       print("mymemberId : ${memberId}");
+            //       return Padding(
+            //         padding: const EdgeInsets.only(bottom: 25),
+            //         child: ChatListBox(
+            //           func: () async {
+            //             final extra = state[index];
+            //             final enterData = MakeRoom(userId: extra.userId, postId: extra.postId, yourId: extra.yourId);
+            //             ref.read(chatProvider.notifier).enterChat(enterData);
+
+            //             context.pushNamed(ChatInfoScreen.routeName, extra: extra);
+            //           },
+            //           username: 'userId : ${state[index].userId}',
+            //           date: "postId : ${state[index].postId}",
+            //           content: "yourId : ${state[index].yourId}",
+            //         ),
+            //       );
+            //     },
+            //   ),
           ],
         ),
       ),
@@ -132,7 +145,8 @@ class _ChatListScreenState extends ConsumerState<ChatListScreen> {
                       children: [
                         UserImage(size: 25),
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 6, vertical: 3),
                           child: Text(
                             username,
                             style: tsNotoSansKR(

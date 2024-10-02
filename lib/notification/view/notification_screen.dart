@@ -32,38 +32,50 @@ class NotificationScreen extends StatelessWidget {
           print('object');
         },
         popupList: [
-          popupItem(text: '수정하기'),
-          PopupMenuDivider(),
-          popupItem(text: '수정하기2'),
-          PopupMenuDivider(),
-          popupItem(text: '수정3하기'),
-          PopupMenuDivider(),
-          popupItem(text: '수정6하기'),
-          PopupMenuDivider(),
-          popupItem(text: '수정5하기'),
+          // popupItem(text: '수정하기'),
+          // PopupMenuDivider(),
+          // popupItem(text: '수정하기2'),
+          // PopupMenuDivider(),
+          // popupItem(text: '수정3하기'),
+          // PopupMenuDivider(),
+          // popupItem(text: '수정6하기'),
+          // PopupMenuDivider(),
+          // popupItem(text: '수정5하기'),
         ],
         title: '알림',
       ),
       child: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: ListView.separated(
-            separatorBuilder: (context, index) {
-              return SizedBox(
-                height: 11,
-              );
-            },
-            shrinkWrap: true,
-            itemCount: 8,
-            itemBuilder: (context, index) {
-              return notificationBox(
-                type: '채팅',
-                title: '알림 제목입니다.',
-                content: '알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다.',
-              );
-            },
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(height: 50),
+              Text(
+                "추후 업데이트될 예정입니다.\n감사합니다.",
+                textAlign: TextAlign.center,
+              ),
+            ],
           ),
         ),
+        // child: Padding(
+        //   padding: const EdgeInsets.symmetric(horizontal: 16),
+        //   child: ListView.separated(
+        //     separatorBuilder: (context, index) {
+        //       return SizedBox(
+        //         height: 11,
+        //       );
+        //     },
+        //     shrinkWrap: true,
+        //     itemCount: 8,
+        //     itemBuilder: (context, index) {
+        //       return notificationBox(
+        //         type: '채팅',
+        //         title: '알림 제목입니다.',
+        //         content: '알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다. 알림 내용입니다.',
+        //       );
+        //     },
+        //   ),
+        // ),
       ),
     );
   }

@@ -662,14 +662,17 @@ class _ProductInfoScreenState extends ConsumerState<ProductInfoScreen>
                         right: -10,
                         child: GestureDetector(
                           onTap: () {
-                            print("채팅 걸기");
-                            final data = MakeRoom(
-                              userId: (userId).toString(),
-                              postId: (product_id).toString(),
-                              yourId: (yourId).toString(),
-                            );
-                            print(data.toJson());
-                            ref.read(chatProvider.notifier).enterChat(data);
+                            CustomDialog(context: context, title: "추후 업데이트될 예정입니다.\n감사합니다.", OkText: "확인", func: (){
+                              context.pop();
+                            });
+                            // print("채팅 걸기");
+                            // final data = MakeRoom(
+                            //   userId: (userId).toString(),
+                            //   postId: (product_id).toString(),
+                            //   yourId: (yourId).toString(),
+                            // );
+                            // print(data.toJson());
+                            // ref.read(chatProvider.notifier).enterChat(data);
                           },
                           child: Container(
                             padding: const EdgeInsets.symmetric(
