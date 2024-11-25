@@ -2,17 +2,22 @@
   "project_info": {
     "project_number": "333022048155",
     "project_id": "auction-shop-a3d28",
-    "storage_bucket": "auction-shop-a3d28.appspot.com"
+    "storage_bucket": "auction-shop-a3d28.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:333022048155:android:7b5ec41604e82c6abd7b3e",
+        "mobilesdk_app_id": "1:333022048155:android:744458b2117a39d2bd7b3e",
         "android_client_info": {
-          "package_name": "com.example.auction_shop"
+          "package_name": "com.auction.heybid"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "333022048155-9p4cucihuvmcnngd7sm9csbh2tqkdme9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBMlOwtbY5kELa3LgTpO6hjpSWL-tGslgQ"
@@ -20,7 +25,63 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333022048155-9p4cucihuvmcnngd7sm9csbh2tqkdme9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "333022048155-l59i1jqtheoa9oefno09p4mn6r8kluve.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.auctionShop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333022048155:android:7b5ec41604e82c6abd7b3e",
+        "android_client_info": {
+          "package_name": "com.example.auction_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333022048155-lid5dlj6uungael8o8quvg4ef0q64hv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auction_shop",
+            "certificate_hash": "1b5b201f15d3667a4fdeef3c070b213c21954db7"
+          }
+        },
+        {
+          "client_id": "333022048155-9p4cucihuvmcnngd7sm9csbh2tqkdme9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMlOwtbY5kELa3LgTpO6hjpSWL-tGslgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333022048155-9p4cucihuvmcnngd7sm9csbh2tqkdme9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "333022048155-l59i1jqtheoa9oefno09p4mn6r8kluve.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.auctionShop"
+              }
+            }
+          ]
         }
       }
     }

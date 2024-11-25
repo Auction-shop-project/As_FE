@@ -15,7 +15,7 @@
     
 
     <application
-        android:label="auction_shop"
+        android:label="HeyBid"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:showWhenLocked="true"
@@ -85,7 +85,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="auctionShopurlscheme" />
+                <data android:scheme="heybidShopurlscheme" />
 
                 <!-- "kakao${YOUR_NATIVE_APP_KEY}://oauth" 형식의 앱 실행 스킴 설정 -->
                 <!-- 카카오 로그인 Redirect URI -->

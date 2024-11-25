@@ -1,4 +1,4 @@
-package com.example.auction_shop
+package com.auction.heybid
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

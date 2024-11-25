@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Auction Shop</string>
+	<string>HeyBid</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>auction_shop</string>
+	<string>HeyBid</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -53,13 +53,13 @@
 	</array>
 	<!-- 네이버로그인 -->
 	<key>naverServiceAppUrlScheme</key>
-    <string>auctionShopurlscheme</string>
+    <string>heybidurlscheme</string>
     <key>naverConsumerKey</key>
     <string>mM6xnsnae5MCpC_PWp_i</string>
     <key>naverConsumerSecret</key>
     <string>Mg11Nw3wrX</string>
     <key>naverServiceAppName</key>
-    <string>auction-shop</string>
+    <string>HeyBid</string>
 
 	<!-- 도로명 주소  -->
 	<key>NSAppTransportSecurity</key>
@@ -102,7 +102,7 @@
                 <key>CFBundleURLSchemes</key>
                 <array>
 					<string>kakao15d66122fbd678ea76c0651f92f55233</string>
-                    <string>auctionShopurlscheme</string>
+                    <string>heybidShopurlscheme</string>
                 </array>
             </dict>
         </array>

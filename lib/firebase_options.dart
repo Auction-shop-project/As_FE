@@ -46,25 +46,27 @@ class DefaultFirebaseOptions {
     messagingSenderId: '333022048155',
     projectId: 'auction-shop-a3d28',
     authDomain: 'auction-shop-a3d28.firebaseapp.com',
-    storageBucket: 'auction-shop-a3d28.appspot.com',
+    storageBucket: 'auction-shop-a3d28.firebasestorage.app',
     measurementId: 'G-9CCT8VF6YG',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBMlOwtbY5kELa3LgTpO6hjpSWL-tGslgQ',
-    appId: '1:333022048155:android:7b5ec41604e82c6abd7b3e',
+    appId: '1:333022048155:android:744458b2117a39d2bd7b3e',
     messagingSenderId: '333022048155',
     projectId: 'auction-shop-a3d28',
-    storageBucket: 'auction-shop-a3d28.appspot.com',
+    storageBucket: 'auction-shop-a3d28.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCr4yH_lSMlLVjzFI7cy4yFNydwHm_UuUo',
-    appId: '1:333022048155:ios:47d85c510205c3a0bd7b3e',
+    appId: '1:333022048155:ios:ee35da3a99abba9dbd7b3e',
     messagingSenderId: '333022048155',
     projectId: 'auction-shop-a3d28',
-    storageBucket: 'auction-shop-a3d28.appspot.com',
-    iosBundleId: 'com.example.auctionShop',
+    storageBucket: 'auction-shop-a3d28.firebasestorage.app',
+    androidClientId: '333022048155-lid5dlj6uungael8o8quvg4ef0q64hv9.apps.googleusercontent.com',
+    iosClientId: '333022048155-9n3onhtbljfep5ov5ut2r1kp2e9tehsm.apps.googleusercontent.com',
+    iosBundleId: 'com.auction.heybid',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -72,7 +74,9 @@ class DefaultFirebaseOptions {
     appId: '1:333022048155:ios:47d85c510205c3a0bd7b3e',
     messagingSenderId: '333022048155',
     projectId: 'auction-shop-a3d28',
-    storageBucket: 'auction-shop-a3d28.appspot.com',
+    storageBucket: 'auction-shop-a3d28.firebasestorage.app',
+    androidClientId: '333022048155-lid5dlj6uungael8o8quvg4ef0q64hv9.apps.googleusercontent.com',
+    iosClientId: '333022048155-l59i1jqtheoa9oefno09p4mn6r8kluve.apps.googleusercontent.com',
     iosBundleId: 'com.example.auctionShop',
   );
 
@@ -82,7 +86,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '333022048155',
     projectId: 'auction-shop-a3d28',
     authDomain: 'auction-shop-a3d28.firebaseapp.com',
-    storageBucket: 'auction-shop-a3d28.appspot.com',
+    storageBucket: 'auction-shop-a3d28.firebasestorage.app',
     measurementId: 'G-P3MCYDN0F8',
   );
+
 }
